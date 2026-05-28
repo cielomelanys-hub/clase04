@@ -13,7 +13,8 @@ class Config:
     SECRET_KEY = os.getenv("SECRET_KEY", "dev-change-me")
     SQLALCHEMY_DATABASE_URI = os.getenv(
         "DATABASE_URL",
-        "postgresql+psycopg2://postgres:123456@localhost:5432/cafe_andino",
+        "postgresql+psycopg2://cafe_andino:l7yBX7ITAPXXaHkWIIpt1lEDtU9KQXJE@dpg-d8c2676gvqtc73e64a80-a.oregon-postgres.render.com/cafe_ancino"
+        ##"postgresql+psycopg2://postgres:123456@localhost:5432/cafe_andino",
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
